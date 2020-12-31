@@ -13,10 +13,10 @@ ruby main.rb [argment] [filename]
 
 --build [filename] --生HTMLを生成
 --build-all [生成後のファイル名] --buildで生成された中間ファイルに
-スタイルを適用して./public以下に生成
+./publish/assets/common.cssのスタイルを適用して./public以下に生成
 -v バージョン表示
 ```
 
-CSSのファイルは`./publish/common.css`です  
+CSSのファイルは`./publish/assets/common.css`です  
 HTMLのテンプレートは`makehtml.rb`に直接書き込まれています  
 サイト名などは空白になっているので適宜書き換えてください.
