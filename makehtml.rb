@@ -31,7 +31,7 @@ class Make
             end
             next
           end
-          
+
           # <code> インライン表示
           if line !~ /^```\w*$/ # && line =~ /`(.+)`/
             line.gsub!(/`(.+)`/, "<code>\\1</code>")
@@ -105,7 +105,7 @@ class Make
           else
             line = "<p>#{line}</p>" unless skip_p
           end
-            
+
           file.puts line
         end
       end
@@ -120,11 +120,11 @@ class Make
   <head>
     <meta charset=\"UTF-8\">
     <title>#{$filename}</title>
-    <link rel=\"stylesheet\" href=\"common.css\">
+    <link rel=\"stylesheet\" href=\"./assets/common.css\">
   </head>
   <body>
     <header>
-      <h2 class=\"site-title\"><a href=\"/\">laminne</a></h2>
+      <h2 class=\"site-title\"><a href=\"/\"></a></h2>
       <hr>
     </header>
 
@@ -134,7 +134,7 @@ class Make
 
     <footer>
       <hr>
-      <p>&copy; laminne</p>
+      <p>&copy; </p>
     </footer>
   </body>
 </html>
