@@ -16,3 +16,7 @@ ruby main.rb [argment] [filename]
 スタイルを適用して./public以下に生成
 -v バージョン表示
 ```
+
+CSSのファイルは`./publish/common.css`です  
+HTMLのテンプレートは`makehtml.rb`に直接書き込まれています  
+個人用の記述が一部ありますのでご自由に書き換えてください.
