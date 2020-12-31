@@ -19,4 +19,4 @@ ruby main.rb [argment] [filename]
 
 CSSのファイルは`./publish/common.css`です  
 HTMLのテンプレートは`makehtml.rb`に直接書き込まれています  
-個人用の記述が一部ありますのでご自由に書き換えてください.
+サイト名などは空白になっているので適宜書き換えてください.
